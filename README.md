@@ -1,2 +1,8 @@
 # Dissertation
 Dissertartion repository - ESG-Constrained Markowitz Mean Variance vs. Mean-CVaR: Evidence from Mexican Equities, 2020-2024
+
+This dissertation evaluates how an eligibility-style ESG screen affects portfolio efficiency and downside risk within a single-country equity market. Using daily data for 76 Mexican issuers from 7 July 2020 to 31 December 2024, two long-only, fully invested optimization frameworks are studied: Mean–Variance (MV) and Mean–CVaR at α = 0.95. The ESG-constrained universe is defined by a 2024 snapshot rule that retains issuers with a composite ESG score at or above the cross-sectional mean. Returns and volatility are reported on an annualized basis; CVaR₉₅ is expressed as a daily loss; Sharpe ratios use r_f = 7.75% p.a. To ensure like-for-like evaluation, frontiers for the unconstrained and ESG universes are compared on a common return grid.
+
+Across matched expected returns, results show a consistent efficiency shortfall for the ESG universe. Under MV, ESG portfolios exhibit higher volatility and lower Sharpe ratios than unconstrained portfolios, with differences widening toward higher return targets. Under Mean–CVaR, ESG portfolios display higher CVaR₉₅ and larger maximum drawdowns, again with gaps increasing as the ESG frontier approaches its return ceiling. These patterns are most plausibly attributed to a diversification cost from excluding non-eligible names rather than to causal effects of ESG characteristics.
+
+The study contributes a transparent, replicable screening rule and a comparison design that mitigates frontier-matching biases. Practical implications highlight the need for careful constraint design—or broader universes—when pursuing sustainability tilts without sacrificing risk efficiency.
